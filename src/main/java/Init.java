@@ -1,3 +1,7 @@
+/**
+ * @author Jose Manuel Calzada Sanchez
+ * 
+ */
 public class Init {
     public static void main(String[] args) {
         int a = 2;
@@ -8,6 +12,12 @@ public class Init {
         System.out.println(cualEsMayor(a, b, c) + " es el mayor");
     }
 
+    /**
+     * @param a
+     * @param b
+     * @param c
+     * @return int del numero mas alto
+     */
     public static int cualEsMayor(int a, int b, int c){
         if (a > b & a > c) {
             return a;
